@@ -5,3 +5,5 @@ const takeUntil = (arr, cb) => {
     else return result;
   }
 };
+
+module.exports = takeUntil;

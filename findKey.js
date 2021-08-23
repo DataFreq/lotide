@@ -3,3 +3,5 @@ const findKey = (obj, cb) => {
     if (cb(obj[key])) return key;
   }
 };
+
+module.exports = findKey;
