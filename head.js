@@ -1,5 +1,5 @@
-const head = (actual) => {
+const head = actual => {
   return actual.shift();
 };
 
-module.exports = head
+module.exports = head;
