@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@datafreq/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "student clone of lodash made for educational purposes",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/DataFreq/lotide.git"
   },
-  "author": "",
+  "author": "Tommy Le (https://github.com/DataFreq)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/DataFreq/lotide/issues"
