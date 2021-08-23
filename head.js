@@ -1,11 +1,7 @@
-const assertEqual = function(actual, expected) {
-  if (actual === expected) {
-    console.log(`✅ [PASS] Assertion Passed: ${actual} === ${expected}`);
-  } else {
-    console.log(`🛑 [ERR] Assertion Failed: ${actual} !== ${expected}`);
-  }
-};
+const assertEqual = require('./assertEqual');
 
 const head = (actual) => {
   return actual.shift();
 };
+
+module.exports = head
